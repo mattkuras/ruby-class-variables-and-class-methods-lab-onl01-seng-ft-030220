@@ -35,6 +35,16 @@ class Song
   array 
   end
   
+  def self.genres 
+    array = []
+    @@genres.each do |genre|
+    if array.include?(genre) == false 
+      array << genre
+    end
+  end
+  array 
+  end
+  
   def self.genre_count
     hash = {}
     @@genres.each do |genre|
