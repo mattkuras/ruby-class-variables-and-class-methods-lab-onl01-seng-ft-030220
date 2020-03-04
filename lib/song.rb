@@ -26,7 +26,9 @@ class Song
   end
   
   def self.artists 
-    @@artists
+    array = []
+    @@artists.each do |arist|
+      
   end
   
   def self.genre_count
