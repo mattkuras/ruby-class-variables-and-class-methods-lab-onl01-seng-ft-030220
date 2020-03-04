@@ -38,9 +38,10 @@ class Song
       else
         hash[genre] = 1 
       end
+      binding.pry 
+
     end
     hash
-    binding.pry 
 
   end
   
